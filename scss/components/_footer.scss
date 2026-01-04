@@ -1,0 +1,77 @@
+@import "../base/variables";
+
+footer {
+    width: 100%;
+    height: auto;
+    background: $bg-dark;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .social-media,
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-weight: bold;
+
+        p {
+            color: $font-white;
+            margin-bottom: 15px;
+            font-weight: 500;
+            position: relative;
+            padding-bottom: 10px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 2px;
+                left: -8px;
+                width: calc(110% + 10px);
+                border-bottom: 1px solid $font-white;
+            }
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+
+        a {
+            margin: 0 10px;
+
+            img {
+                width: 40px;
+            }
+        }
+    }
+
+    .contact-info {
+        a {
+            color: $dt-color1;
+            text-decoration: none;
+            font-weight: lighter;
+        }
+    }
+
+    #copyright {
+        color: $font-white;
+        font-size: 0.8rem;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
