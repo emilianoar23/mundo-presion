@@ -622,7 +622,11 @@ nav ul li {
     display: flex;
     align-items: center;
   }
-  .contact h2 {
+  .contact .contact-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact .contact-container h2 {
     margin-bottom: 25px;
   }
   .contact .contacto {

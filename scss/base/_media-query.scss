@@ -114,8 +114,12 @@ nav {
     height: max-content;
     display: flex;
     align-items: center;
+        .contact-container{
+      align-items: center;
+      flex-direction: column;
     h2{
       margin-bottom: 25px;
+    }
     }
 
     .contacto {
