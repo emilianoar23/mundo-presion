@@ -718,11 +718,12 @@ nav ul li {
     font-size: 2rem;
   }
   footer .footer-content {
+    margin: 0 30px;
     flex-direction: row;
     justify-content: space-between;
   }
 }
-@media all and (min-width: 1025px) and (max-width: 2560px) {
+@media all and (min-width: 1024px) and (max-width: 2560px) {
   .hero .content {
     padding: 100px;
   }
@@ -742,7 +743,8 @@ nav ul li {
     width: 70%;
   }
   footer .footer-content {
+    margin: 0 60px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
